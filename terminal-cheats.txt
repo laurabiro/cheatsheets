@@ -1,0 +1,14 @@
+cd // change directory 
+cd .. // visszalépés (space!!)
+cd myFolder // myFolderbe lép be (első betű után tab kiegészíti, felfelé nyíllal előző helyet hozza be, / jellel több mappát tudunk ugrani, láncolni)
+mkdir // make directory
+mkdir development // léptrehoz egy development mappát(mappa nevekben ne legyen space)
+
+ls // tartalom listázás
+ls -Force // mutatja a rejtett fájlokat, mappákat
+pwd // path
+ni fileName.txt // new item fájl létrehozása (file nevében nincs space!!)
+code . // megnyitja a vscodeot
+ctrl + c --> y n //újrakezdés igen nem
+rm // törlés
+rm -Force .git

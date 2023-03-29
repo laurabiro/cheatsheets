@@ -1,0 +1,7 @@
+git init //mappa követés kérése
+git status
+git add .
+git commit -m " "
+git log
+git checkout <commit (verzió) száma
+git switch -
