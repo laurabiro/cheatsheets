@@ -1,0 +1,54 @@
+<p> // nyitó tag
+</p> // záró tag
+<p>közötte van a content</p> // ez együtt az element
+
+p // paragraph
+em // italic
+a // hyperlink (href, title, target)
+
+<p>I am <strong>very</strong> hungry.</p> // belül van egy nesting
+
+<em>element</em><em><anotherelement</em> // inline element
+<p>element</p>
+<p>anotherelement</p> // block element (block element nem lehet nested inline elementbe, de lehet egy másik block elementbe)
+
+<img> // void element
+<img 
+src="URLcím" alt="img name" /> // a kép forrásból való megjelenítése
+<p class="editor-note">text</p> // attribute (fontos a space és a quote!!)
+attribute-name="attribute-value"
+
+ <p>A <a href="https://www.google.com" title="google-page" target="_blank">link</a> to my favorite website.</p> // a link szó nyit egy új google oldalt
+ <input type="text" disabled="disabled" /> // boolean attribute (a disabled funkció nélkül a felhasználó tud textet írni, de így nem)
+
+<!DOCTYPE html> // ezt mindig bele kell írni a kódba!
+<html></html> // ez veszi körül az egész contentet az oldalon
+<head></head> // ez a container mindennek, ami nem a content(leírás keresési találatokhoz, CSS, karakterek leírása)
+<meta charset="utf-8"> // metadata + a charset attribute beállítja a karaktereket UTF-8-ba, ami a legtöbb karatert ismeri, így a kontentet kezeli
+<title></title> // az oldal nevét állítja be, ami a keresőben is megjelenik
+<body></body> // ebben található minden, ami érzékelhető a user számára
+______________________PÉLDA_________________________
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <title>My test page</title>
+  </head>
+  <body>
+    <p>This is my page</p>
+  </body>
+</html>
+_____________________PÉLDA VÉGE________________________
+
+// whitespace (bármennyi spacet ütünk, egynek fogja tekintetni a html, tehát többet is használhatunk az átláthatóság kedvéért)
+
+entity references:
+<	&lt;
+>	&gt;
+"	&quot;
+'	&apos;
+&	&amp;
+ha meg akarjuk jeleníteni szövegesen, hogy pl: <p> , akkor érdemes használni ezeket, hogy ne vegye új paragraphnak
+
+<!-- <p>comment</p> --> // kommentet így tudnuk írni, ezt a browser figyelmen kívül hagyja
+

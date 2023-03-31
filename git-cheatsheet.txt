@@ -2,12 +2,15 @@ git status // mappa lekérdezése követéssel kapcsolatban, nincs e már leköv
 git init // mappa követés kérése, utána ellenőrzésként git status
 git add . // hozzáadja a változásokat a snapshothoz
 git commit -m "comment" // comment bármilyen név lehet, ami a változás oka, kezdő verzió általában "initial"
-(git log 
+(git log
 git checkout <commit (verzió) száma 
 git switch - ) // ezek még nem kellenek
 ____________eddig lokális______________________
+
+------------innentől felhő---------------------
 git remote // van e felhő repositoryhoz kapcsolva (github-on létrehozunk egy üres repositoryt, kell az URL címe)
 git remote add origin URLcím (jobb klikk ctrl+v helyett) a másoláshoz // ezzel összekötjük
 git remote -v // részletes leírás
 
-git push // először errort dob ki, majd a középső sort ki kell másolni utána ()
+git push // először errort dob ki, majd a középső sort ki kell másolni, utána írni
+git clone URLcím . // felhőből másolás

@@ -8,7 +8,9 @@ ls // tartalom listázás
 ls -Force // mutatja a rejtett fájlokat, mappákat
 pwd // path
 ni fileName.txt // new item fájl létrehozása (file nevében nincs space!!)
+
 code . // megnyitja a vscodeot
 ctrl + c --> y n //újrakezdés igen nem
+
 rm // törlés
-rm -Force .git
+rm -Force (.git vagy fájl, mappa neve) // törli a megadottat
